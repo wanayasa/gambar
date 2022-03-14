@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  background: url("./bg.jpg") no-repeat center;
+  background: url("https://raw.githubusercontent.com/wanayasa/gambar/main/bg.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -31,7 +31,7 @@ body {
 .card {
   width: var(--card-width);
   height: var(--card-height);
-  background-image: url("./spritesheet.png");
+  background-image: url("https://raw.githubusercontent.com/wanayasa/gambar/main/spritesheet.png");
   position: absolute;
   left: 0;
   top: 0;
@@ -63,7 +63,7 @@ body {
   width: var(--card-width);
   height: var(--card-height);
   border-radius: 4px;
-  background-image: url("./spritesheet.png");
+  background-image: url("https://raw.githubusercontent.com/wanayasa/gambar/main/spritesheet.png");
   background-position: calc(var(--card-width) * -3)
     calc(var(--card-height) * -4);
   transition: 0.2s;
